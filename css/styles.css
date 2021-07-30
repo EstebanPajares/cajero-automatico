@@ -1,0 +1,27 @@
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container{
+  position: absolute;
+  background-color: transparent;
+  height: inherit;
+
+}
+h1, p{
+    text-align: center;
+    color:steelblue;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form{
+    width: 400px;
+    position: relative;
+    margin: 0 20px;
+    background-color:#ffffff;
+}
+img{
+    width: 380px;
+}

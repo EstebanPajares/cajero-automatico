@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Author" content="Esteban Pajares">
+    <title>Cajero ATM - PERU</title>
+    <link rel="stylesheet" href="./css/styles.css" type="text/css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container" >
+            <h1>CAJERO ATM - PERU</h1>
+            <figure>
+                <img src="./images/cajero.png">
+                <figcaption>*** Este cajero entrega billetes hasta de S/.10.00</figcaption>
+            </figure>
+            <p id="saldo"></p>
+            <form>
+                <fieldset>
+                    <legend>Monto a retirar en Soles</legend>
+                    <input type="number" id="dinero" placeholder="Ingrese un monto en Soles">
+                    <input type="button" value="Extraer" id="extraer">
+                    <input type="reset" value ="Cancelar" id="cancelar">
+                </fieldset>
+            </form>
+            <p></p>
+            <form>
+                <fieldset>
+                    <legend>Monto entregado</legend>
+                    <p id="resultado" ></p>
+                </fieldset>
+            </form>
+            <br>
+            <form>
+                <fieldset>
+                    <legend>Verifique bien sus billetes antes de retirarse</legend>
+                    <p id="cheque"></p>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <script src="./js/cajero.js"></script>
+</body>
+</html>
